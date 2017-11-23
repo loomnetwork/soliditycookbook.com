@@ -1,0 +1,28 @@
+<div class="pt-0 header container">
+  <nav class="navbar navbar-light navbar-expand-sm ext-uppercase app-navbar mb-0">
+    <a class="navbar-brand mr-auto" href="https://soliditycookbook.com">
+      Solidity Cookbook
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <% menu_items = current_page.data.menu || data.menu.header %>
+        <% menu_items.each do |item| %>
+          <li class="nav-item ">
+            <a class="nav-link" href="<%= item.href %>"><%= item.title %></a>
+          </li>
+        <% end %>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+</div>

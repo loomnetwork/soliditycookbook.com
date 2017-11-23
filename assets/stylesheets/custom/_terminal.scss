@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
+
+.terminal {
+  font-family: "Inconsolata", monoscape;
+  position: relative;
+  width: 50em;
+  height: 24em;
+  padding: 4em 1em 1em;
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0.9);
+  margin: 3em auto;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  color: green;
+}
+.terminal .head {
+  position: absolute;
+  display: block;
+  width: 100%;
+  color: #333;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #fafafa;
+}
+
+.prompt {
+  display: inline;
+}
+
+.term-buttons, .title {
+  width: auto;
+  float: left;
+}
+
+.term-buttons {
+  width: 3.5em;
+}
+.term-buttons * {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #35cf76;
+}
+.term-buttons .term-close {
+  background: #e74c3c;
+}
+.term-buttons .term-minimize {
+  background: #f1c40f;
+}
+.term-buttons .term-maximize {
+  background: #35cf76;
+}
+
+.typed-cursor {
+  display: inline;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+          animation: blink 0.7s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

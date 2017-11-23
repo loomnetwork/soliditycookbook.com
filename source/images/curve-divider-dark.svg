@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="158px" viewBox="0 0 1500 158" version="1.1" fill="#000000" background-color="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>curve large</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.4209826%" y1="161.001255%" x2="78.6766904%" y2="-62.2888974%" id="linearGradient-1">
+            <stop stop-color="#79E2F2" stop-opacity="0.23267663" offset="0%"></stop>
+            <stop stop-color="#00C7E5" stop-opacity="0.194548234" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Export-Page" stroke="none" stroke-width="1" fill="#000000" fill-rule="evenodd">
+        <g id="curve-large">
+            <g id="curves" transform="translate(749.500000, 74.000000) rotate(4.000000) translate(-749.500000, -74.000000) translate(-49.000000, -110.000000)">
+                <path d="M1590.74684,235.314443 C1503.03107,274.017551 1126.79799,302.515859 791.701238,208.846033 C456.604491,115.176206 224.27397,155.305365 5.21749162,199.680218 L5.85340938,143.080886 C220.815009,89.7013249 449.187412,70.2394245 791.543126,149.852572 C1133.89984,229.46572 1507.13898,178.442571 1591.46222,136.170296 L1590.74684,235.314443 Z" id="Page-1" fill="url(#linearGradient-1)" transform="translate(798.339856, 184.102405) rotate(-7.000000) translate(-798.339856, -184.102405) "></path>
+                <path d="M1589.95449,244.586891 C1502.23872,283.289999 1126.53,304.04439 791.433253,210.374564 C456.336506,116.704737 226.049531,142.170027 6.99305293,186.54488 L6.63416152,129.121582 C221.595761,75.7420214 449.496232,63.2496465 791.851946,142.862794 C1134.20866,222.475942 1506.34662,187.715019 1590.66987,145.442744 L1589.95449,244.586891 Z" id="Page-1" fill-opacity="0.5" fill="#000000" transform="translate(798.652014, 181.684650) rotate(-4.000000) translate(-798.652014, -181.684650) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

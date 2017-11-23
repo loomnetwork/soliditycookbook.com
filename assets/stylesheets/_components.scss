@@ -1,0 +1,101 @@
+// Bootstrap mixins
+@import "./bootstrap/_mixins.scss";
+
+// Reset and dependencies
+@import "./bootstrap/_print.scss";
+
+// Core CSS
+@import "./bootstrap/_reboot.scss";
+@import "./bootstrap/_type.scss";
+@import "./bootstrap/_images.scss";
+@import "./bootstrap/_code.scss";
+@import "./bootstrap/_grid.scss";
+@import "./bootstrap/_tables.scss";
+@import "./bootstrap/_forms.scss";
+@import "./bootstrap/_buttons.scss";
+
+// Components
+@import "./bootstrap/_transitions.scss";
+@import "./bootstrap/_dropdown.scss";
+@import "./bootstrap/_button-group.scss";
+@import "./bootstrap/_input-group.scss";
+@import "./bootstrap/_custom-forms.scss";
+@import "./bootstrap/_nav.scss";
+@import "./bootstrap/_navbar.scss";
+@import "./bootstrap/_card.scss";
+@import "./bootstrap/_breadcrumb.scss";
+@import "./bootstrap/_pagination.scss";
+@import "./bootstrap/_badge.scss";
+@import "./bootstrap/_jumbotron.scss";
+@import "./bootstrap/_alert.scss";
+@import "./bootstrap/_progress.scss";
+@import "./bootstrap/_media.scss";
+@import "./bootstrap/_list-group.scss";
+@import "./bootstrap/_close.scss";
+
+// Components w/ JavaScript
+@import "./bootstrap/_modal.scss";
+@import "./bootstrap/_tooltip.scss";
+@import "./bootstrap/_popover.scss";
+@import "./bootstrap/_carousel.scss";
+
+// Utility classes
+@import "./bootstrap/_utilities.scss";
+
+// Extended Bootstrap components
+@import "./custom/_type-custom.scss";
+@import "./custom/_alerts-custom.scss";
+@import "./custom/_buttons-custom.scss";
+@import "./custom/_nav-heading.scss";
+@import "./custom/_navbar-utilities.scss";
+
+// Custom theme components
+// @import "./custom/_icons.scss";
+@import "./custom/_text-inherit.scss";
+@import "./custom/_nav-bordered.scss";
+@import "./custom/_buttons-radius.scss";
+@import "./custom/_container-custom.scss";
+@import "./custom/_block.scss";
+@import "./custom/_navbar-transparent.scss";
+@import "./custom/_carousel-light.scss";
+@import "./custom/_callouts.scss";
+@import "./custom/_featured-list.scss";
+@import "./custom/_zoom.scss";
+@import "./custom/_text-ribbon.scss";
+// @import "./custom/_iconlist.scss";
+@import "./custom/_cards-bold.scss";
+@import "./custom/_statcard.scss";
+@import "./custom/_pull-quote.scss";
+@import "./custom/_stage.scss";
+
+// Terminal
+@import "./custom/_terminal.scss";
+
+//
+// Custom styles
+//
+html {
+  // set optimal base size
+  font-size: $font-size-root;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  &.text-uppercase {
+    letter-spacing: .15em;
+  }
+  small,
+  .small {
+    font-weight: inherit;
+  }
+}
+
+h6, .h6 {
+  margin-bottom: ($spacer-y * .25);
+  color: lighten($gray-500, 40%);
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: bold;
+}

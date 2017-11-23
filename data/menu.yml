@@ -1,0 +1,16 @@
+header:
+#  -
+#    href: '#components'
+#    title: 'Components'
+#  -
+#    href: '#whitepaper'
+#    title: 'Whitepaper'
+#  -
+#    href: '#about'
+#    title: 'Whitepaper'
+  -
+    href: 'https://medium.com/loom-network'
+    title: 'Blog'
+  -
+    href: 'https://github.com/loomnetwork'
+    title: 'Github'
