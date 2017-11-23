@@ -22,9 +22,11 @@ set :images_dir, 'images'
 activate :directory_indexes
 
 activate :blog do |blog|
-  blog.permalink = "/{title}"
+  blog.permalink = "/blog/{title}"
   blog.sources = "blog/{title}.html"
+  blog.layout = "blog_layoutasfdfasdafdsadsf"
 end
+page "blog/*", :layout => :blog_layout
 
 # Build-specific configuration
 configure :build do
