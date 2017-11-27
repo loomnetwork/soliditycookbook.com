@@ -12,28 +12,28 @@
   </div>
 </section>
 
-<section class="block pb-5 app-terminal" id="">
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-sm-10 text-center mb-2">
-    <ul>
-    <% blog.articles.each do |item| %>
-      <li class="nav-item ">
-        <a class="nav-link" href="<%= item.url %>"><%= item.title %></a>
-      </li>
-    <% end %>
-    </ul>
-   </div>
+<section class="block pb-5 pt-0 " id="">
+  <div class="container">
+    <dl class="col-lg-10 text-center">
+      <% blog.articles.each do |item| %>
+        <a class="row nohover" href="<%= item.url %>">
+          <dt class="col-sm-3 text-dark"><span class="align-middle"><u><%= item.title %></u></span></dt>
+          <dd class="col-sm-9">
+            <pre style=""><code class="solidity"><%= item.data.brief %></code></pre>          
+          </dd>
+        </a>
+      <% end %>        
+    </dl>
+  </div>
 </section>
 
-
-<section class="block text-center bg-light">
+<section class="block text-center bg-warning">
 <div class="container-fluid">
-  <h3 class="mb-4">
+  <p class="">
     Want to recieve updates about solidity toturials? Join our mailing list <strong>now</strong>!
-  </h3>
-  <div class="pt-5">
-    <a href="https://app.monstercampaigns.com/c/ig55ebay3gkjtbdhg0yh/" class="manual-optin-trigger btn btn-warning mb-3 mx-1" data-optin-slug="ig55ebay3gkjtbdhg0yh" target="_blank">Get Priority Access</a>
+  </p>
+  <div class="">
+    <a href="https://app.monstercampaigns.com/c/ig55ebay3gkjtbdhg0yh/" class="manual-optin-trigger btn btn-danger mb-3 mx-1" data-optin-slug="ig55ebay3gkjtbdhg0yh" target="_blank">Get Priority Access</a>
   </div>
 </div>
 </section>

@@ -1,10 +1,15 @@
 <% wrap_layout :layout do %>
 
- <div class="article-container"> 
-   <article>
-     <h2 class="article-title"><%= current_page.title %></h2>
-     <%= yield %>
-   </article>
- </div>
+  <h2 class="article-title bg-warning p-2"><%= current_page.title %><a class="text-white float-right" href="/" style="font-size: 0.5em; line-height: 3em">Back</a></h2>
+    <div class="container">
+      <div class="row">     
+        <div class="col-md-6">
+          <%= yield %>
+        </div>
+        <div class="col-md-6">
+          <iframe id="<%= current_page.data.ethfiddle %>" src="https://ethfiddle.com/services/iframesnippet/<%= current_page.data.ethfiddle %>" scrolling="no" frameborder="0" allowtransparency="true" class="ef_embed_iframe w-100" height="100%" style="overflow: scroll; min-height: 50vh"></iframe>
+          </div>
+        </div>
+    </div>
 
 <% end %>
