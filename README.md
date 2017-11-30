@@ -1,4 +1,9 @@
-# Setup
+# SolidityCookbook.com
+
+A curated set of sample code for Solidity. Sponsored by Loom Network. Feel free to fork and add new content with pull requests. We want to help the community grow and have better documentation for Solidity.
+
+
+# To run locally
 
 prerequisite: bundler
 ```
