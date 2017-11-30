@@ -17,7 +17,7 @@
     <dl class="col-lg-10 text-center">
       <% blog.articles.each do |item| %>
         <a class="row nohover" href="<%= item.url %>">
-          <dt class="col-sm-3 text-dark"><span class="align-middle"><u><%= item.title %></u></span></dt>
+          <dt class="col-sm-3 text-dark"><span class="align-middle"><u><%= item.data.short_title || item.title %></u></span></dt>
           <dd class="col-sm-9">
             <pre style=""><code class="solidity"><%= item.data.brief %></code></pre>          
           </dd>
