@@ -31,8 +31,7 @@ Branching with if and else in solidity is straight-forward.
     uint value;
   }
 </textarea>
-There is also a ternary in Solidity, so you can use that to simplify statements.  See the example to the right with the '?' to the right "value == 6 ? 60 : value;" . You can do the entire if else on one line.
+There is also a ternary in Solidity, so you can use that to simplify statements.  See the example to the right with the '?' to the right "value == 6 ? 60 : value;" . You can do the entire if else on one line. Solidity doesn't have a switch statement so you always have to use if and else. 
 <br/>
-<!--
-Next example: Switch.
--->
+<br/>
+Next example: <a href="/arrays/">Arrays</a>

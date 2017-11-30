@@ -22,7 +22,7 @@ set :images_dir, 'images'
 activate :directory_indexes
 
 activate :blog do |blog|
-  blog.permalink = "/blog/{title}"
+  blog.permalink = "/{title}"
   blog.sources = "blog/{title}.html"
   blog.layout = "blog_layout"
   blog.summary_separator = '=========='

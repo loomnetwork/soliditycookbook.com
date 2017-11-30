@@ -1,6 +1,6 @@
 ---
 title: Voting
-date: 2017/10/23
+date: 2017/1/23
 category: solidity
 ethfiddle: 'HVJH3QfnFb'
 brief: 'contract Ballot {'
